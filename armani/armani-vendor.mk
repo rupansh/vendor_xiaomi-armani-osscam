@@ -257,12 +257,12 @@ PRODUCT_COPY_FILES += \
 # Sensors (TheMuppets Xiaomi cancro)
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/xiaomi/armani/proprietary/vendor/lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libsensor_test.so:system/vendor/lib/libsensor_test.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so
+    vendor/xiaomi/armani/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
+    vendor/xiaomi/armani/proprietary/vendor/lib/sensors.armani.so:system/vendor/lib/sensors.armani.so
 
 # Thermal (V8.0.1.0)
 PRODUCT_COPY_FILES += \
