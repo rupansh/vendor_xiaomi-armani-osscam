@@ -282,6 +282,7 @@ PRODUCT_COPY_FILES += \
 
 # Wifi (V8.0.1.0)
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/armani/proprietary/lib/libqminvapi.so:system/lib/libqminvapi.so \
     vendor/xiaomi/armani/proprietary/vendor/firmware/wcnss.b00:system/vendor/firmware/wcnss.b00 \
     vendor/xiaomi/armani/proprietary/vendor/firmware/wcnss.b01:system/vendor/firmware/wcnss.b01 \
     vendor/xiaomi/armani/proprietary/vendor/firmware/wcnss.b02:system/vendor/firmware/wcnss.b02 \
@@ -290,6 +291,5 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/vendor/firmware/wcnss.b07:system/vendor/firmware/wcnss.b07 \
     vendor/xiaomi/armani/proprietary/vendor/firmware/wcnss.b08:system/vendor/firmware/wcnss.b08 \
     vendor/xiaomi/armani/proprietary/vendor/firmware/wcnss.b09:system/vendor/firmware/wcnss.b09 \
-    vendor/xiaomi/armani/proprietary/vendor/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libqminvapi.so:system/vendor/lib/libqminvapi.so
+    vendor/xiaomi/armani/proprietary/vendor/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt
 
