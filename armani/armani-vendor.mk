@@ -113,9 +113,9 @@ PRODUCT_COPY_FILES += \
 
 # Camera firmware (V8.0.1.0)
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/armani/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/xiaomi/armani/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/xiaomi/armani/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw
+    vendor/xiaomi/armani/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/xiaomi/armani/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/xiaomi/armani/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw
 
 # Chromatix (V8.0.1.0)
 PRODUCT_COPY_FILES += \
@@ -160,10 +160,10 @@ PRODUCT_COPY_FILES += \
 
 # Graphics (TheMuppets Motorola msm8226-common)
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/armani/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/xiaomi/armani/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/xiaomi/armani/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
-    vendor/xiaomi/armani/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
+    vendor/xiaomi/armani/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
+    vendor/xiaomi/armani/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
+    vendor/xiaomi/armani/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
+    vendor/xiaomi/armani/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
     vendor/xiaomi/armani/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -268,13 +268,13 @@ PRODUCT_COPY_FILES += \
 
 # Venus (media) firmware (V8.0.1.0)
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/armani/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
-    vendor/xiaomi/armani/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
-    vendor/xiaomi/armani/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
-    vendor/xiaomi/armani/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
-    vendor/xiaomi/armani/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
-    vendor/xiaomi/armani/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/xiaomi/armani/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt
+    vendor/xiaomi/armani/proprietary/vendor/firmware/venus.b00:system/vendor/firmware/venus.b00 \
+    vendor/xiaomi/armani/proprietary/vendor/firmware/venus.b01:system/vendor/firmware/venus.b01 \
+    vendor/xiaomi/armani/proprietary/vendor/firmware/venus.b02:system/vendor/firmware/venus.b02 \
+    vendor/xiaomi/armani/proprietary/vendor/firmware/venus.b03:system/vendor/firmware/venus.b03 \
+    vendor/xiaomi/armani/proprietary/vendor/firmware/venus.b04:system/vendor/firmware/venus.b04 \
+    vendor/xiaomi/armani/proprietary/vendor/firmware/venus.mbn:system/vendor/firmware/venus.mbn \
+    vendor/xiaomi/armani/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt
 
 # WideVine (angler)
 PRODUCT_COPY_FILES += \
@@ -282,14 +282,14 @@ PRODUCT_COPY_FILES += \
 
 # Wifi (V8.0.1.0)
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/armani/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
-    vendor/xiaomi/armani/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
-    vendor/xiaomi/armani/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
-    vendor/xiaomi/armani/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
-    vendor/xiaomi/armani/proprietary/etc/firmware/wcnss.b06:system/etc/firmware/wcnss.b06 \
-    vendor/xiaomi/armani/proprietary/etc/firmware/wcnss.b07:system/etc/firmware/wcnss.b07 \
-    vendor/xiaomi/armani/proprietary/etc/firmware/wcnss.b08:system/etc/firmware/wcnss.b08 \
-    vendor/xiaomi/armani/proprietary/etc/firmware/wcnss.b09:system/etc/firmware/wcnss.b09 \
-    vendor/xiaomi/armani/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
+    vendor/xiaomi/armani/proprietary/vendor/firmware/wcnss.b00:system/vendor/firmware/wcnss.b00 \
+    vendor/xiaomi/armani/proprietary/vendor/firmware/wcnss.b01:system/vendor/firmware/wcnss.b01 \
+    vendor/xiaomi/armani/proprietary/vendor/firmware/wcnss.b02:system/vendor/firmware/wcnss.b02 \
+    vendor/xiaomi/armani/proprietary/vendor/firmware/wcnss.b04:system/vendor/firmware/wcnss.b04 \
+    vendor/xiaomi/armani/proprietary/vendor/firmware/wcnss.b06:system/vendor/firmware/wcnss.b06 \
+    vendor/xiaomi/armani/proprietary/vendor/firmware/wcnss.b07:system/vendor/firmware/wcnss.b07 \
+    vendor/xiaomi/armani/proprietary/vendor/firmware/wcnss.b08:system/vendor/firmware/wcnss.b08 \
+    vendor/xiaomi/armani/proprietary/vendor/firmware/wcnss.b09:system/vendor/firmware/wcnss.b09 \
+    vendor/xiaomi/armani/proprietary/vendor/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt \
     vendor/xiaomi/armani/proprietary/vendor/lib/libqminvapi.so:system/vendor/lib/libqminvapi.so
 
